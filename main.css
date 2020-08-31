@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container h2{
+
+    margin-top: 1rem;
+    color: white;
+    font-size: 2.5rem;
+    color: rgb(255, 226, 226);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.container i{
+    margin-left: 0.7rem;
+    color:  #9ef1da;
+}
+#characters{
+    margin-right: 1.1rem;
+    color: white;
+    text-align: end;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+.container textarea{
+    
+    width: 85vw;
+    height: 40vw;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#range input,#pitch input{
+ width: 100%;
+ cursor: pointer;
+ outline: none;
+ color: black;
+}
+#range,#pitch{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#range label,#pitch label{
+font-size: 1.3rem;
+
+}
+#select{
+    width: 100%;
+    height: 5vh;
+    outline: none;
+}
+button{
+    width: 100%;
+    margin-top: 1.8rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+    background-color: #ffffff ;
+    color: #000000 ;
+}
+
+@media only screen and (min-width:700px){
+    .container textarea{
+        width: 70vw;
+        height: 10vw;
+    }
+    #range,#pitch{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    #select{
+        height: 5vh;
+        outline: none;
+        margin-bottom: 2rem;
+    }
+
+}
